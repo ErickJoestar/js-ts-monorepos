@@ -68,7 +68,7 @@ By default, the app is served on https://localhost:1234.
 
 # Legal
 
-&copy; 2020 LinkedIn, All Rights Reserved
+&copy; 2020 LinkedIn, All Rights Reserved.
 
 ## Licensing
 
