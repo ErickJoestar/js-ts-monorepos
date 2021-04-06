@@ -6,6 +6,11 @@
   "publishConfig": {
     "access": "public"
   },
+  "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo",
+    "test": "jest",
+    "build": "tsc -b ."
+  },
   "dependencies": {
     "@types/jest": "^26.0.22",
     "date-fns": "^2.19.0",
@@ -13,6 +18,8 @@
     "react": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
     "@types/date-fns": "^2.6.0",
     "@types/react": "^17.0.3"
   }

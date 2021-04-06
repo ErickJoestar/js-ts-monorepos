@@ -7,9 +7,13 @@
     "access": "public"
   },
   "scripts": {
+    "clean": "rimraf dist *.tsbuildinfo",
+    "test": "jest",
     "build": "tsc -b ."
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.13.12",
+    "@babel/preset-typescript": "^7.13.0",
     "typescript": "^4.0.3"
   },
   "dependencies": {
