@@ -13,7 +13,8 @@
     "build": "scripty",
     "clean": "scripty",
     "lint": "scripty",
-    "test": "scripty"
+    "test": "scripty",
+    "postinstall": "husky install"
   },
   "scripty": {
     "path": "./scripts/workspace"
