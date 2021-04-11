@@ -8,11 +8,12 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
-    "test": "jest",
-    "lint": "eslint src --ext js,ts",
-    "build": "tsc -b ."
+    "test": "scripty",
+    "lint": "scripty",
+    "build": "scripty"
   },
   "dependencies": {
+    "@shlack/types": "^0.0.1",
     "@types/jest": "^26.0.22",
     "date-fns": "^2.19.0",
     "jest": "^26.6.3",
@@ -26,5 +27,8 @@
     "@typescript-eslint/eslint-plugin": "^4.21.0",
     "@typescript-eslint/parser": "^4.21.0",
     "eslint": "^7.23.0"
+  },
+  "scripty": {
+    "path": "../../scripts/packages"
   }
 }
